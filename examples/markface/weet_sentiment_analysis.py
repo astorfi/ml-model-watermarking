@@ -4,7 +4,7 @@ import warnings
 import pandas as pd
 import torch.nn as nn
 from datasets import load_dataset
-from mlmodelwatermarking.markface import Trainer as TrainerWM
+from mlmodelwatermarking.marktorch import Trainer as TrainerWM
 from mlmodelwatermarking import TrainingWMArgs
 from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
                           Trainer, TrainingArguments)
